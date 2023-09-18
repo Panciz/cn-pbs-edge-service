@@ -3,6 +3,7 @@ kind: Service
 metadata:
   name: edge-service
   labels:
+    platform: polar-catalog
     app: edge-service
 spec:
   type: ClusterIP
